@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="5.463365">
+<testcase classname="AdactIn Hotel Application" name="TC-1.Verify user login with valid credentials" time="3.833909">
+<system-out><![CDATA[When user should launch the hotel reservation application...................passed
+Given user should launch the hotel reservation application..................passed
+When User should enter valid username 'thenmozhi123'........................passed
+And user should enter valid password "A58702"...............................passed
+Then User click the login button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="AdactIn Hotel Application" name="TC-2.To verify whether the check-out date field accepts a" time="1.629456">
+<system-out><![CDATA[When User should select the location "Sydney"...............................passed
+Then User should select the hotel "Hotel Creek".............................passed
+Then User should select the room type"Standard".............................passed
+Then User should select the no of rooms"4"..................................passed
+Then user should enter checkin date "07/06/2019"............................passed
+Then user should enter the checkout date with day before in checkin"05/06/2019".passed
+Then user should click the search button....................................passed
+Then Verify that system gives an error saying check-in-date should not be later than check-out-date.passed
+]]></system-out>
+</testcase>
+</testsuite>

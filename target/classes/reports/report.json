@@ -1,0 +1,338 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 483951,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC-1.Verify user login with valid credentials",
+        "description": "",
+        "id": "adactin-hotel-application;tc-1.verify-user-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 600396168,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2282536631,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should launch the hotel reservation application",
+            "match": {
+              "location": "StepDefinition.user_should_launch_the_hotel_reservation_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191595684,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should launch the hotel reservation application",
+            "match": {
+              "location": "StepDefinition.user_should_launch_the_hotel_reservation_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 181557944,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should enter valid username \u0027thenmozhi123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thenmozhi123",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_valid_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79403551,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should enter valid password \"A58702\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A58702",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_valid_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497934812,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FeatureTag_1"
+          },
+          {
+            "line": 4,
+            "name": "@tc_1"
+          },
+          {
+            "line": 4,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 272988,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "TC-2.To verify whether the check-out date field accepts a",
+        "description": "       later date than checkin date",
+        "id": "adactin-hotel-application;tc-2.to-verify-whether-the-check-out-date-field-accepts-a;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 397972224,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 174423120,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should select the location \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_should_select_the_location(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169982226,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should select the hotel \"Hotel Creek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hotel Creek",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition.user_should_select_the_hotel(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116218607,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should select the room type\"Standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Standard",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_should_select_the_room_type(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121978614,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should select the no of rooms\"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.user_should_select_the_no_of_rooms(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 321168973,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should enter checkin date \"07/06/2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07/06/2019",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_checkin_date(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168093434,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should enter the checkout date with day before in checkin\"05/06/2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05/06/2019",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_the_checkout_date_with_day_before_in_checkin(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90730775,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should click the search button",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68615192,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify that system gives an error saying check-in-date should not be later than check-out-date",
+            "match": {
+              "location": "StepDefinition.verify_that_system_gives_an_error_saying_check_in_date_should_not_be_later_than_check_out_date()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FeatureTag_1"
+          },
+          {
+            "line": 15,
+            "name": "@tc_2"
+          },
+          {
+            "line": 15,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "AdactIn Hotel Application",
+    "description": "",
+    "id": "adactin-hotel-application",
+    "keyword": "Feature",
+    "uri": "adactin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FeatureTag_1"
+      }
+    ]
+  }
+]

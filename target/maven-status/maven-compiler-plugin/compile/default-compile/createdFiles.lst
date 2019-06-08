@@ -1,0 +1,7 @@
+org\adactin\helper\PropertyReaderManager.class
+org\adactin_pom\Select_BookHotel.class
+org\adactin_pom\LoginPage.class
+org\adactin\helper\PropertyReader.class
+org\adactin_pom\SearchHotel.class
+org\baseclass\BaseClass.class
+org\adactin\helper\PageObjectManager.class
